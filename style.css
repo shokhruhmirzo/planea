@@ -13,6 +13,10 @@
     margin-right: auto;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header-hero {
     background: url(./img/header-hero-bg.jpg);
     background-repeat: no-repeat;
@@ -50,7 +54,7 @@
     line-height: 28px;
 }
 
-.blue {
+.list-item-link:hover{
     color: #313EF7;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -58,7 +62,11 @@
     line-height: 28px;
     border-bottom: 2px solid #313EF7;
     padding: 10px 0px;
+    transition: 0.5s ease;
+
+
 }
+
 
 .list-link {
     color: #FFF;

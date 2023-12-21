@@ -7,13 +7,13 @@
 .container {
     width: 100%;
     max-width: 1268px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -54,7 +54,7 @@ body{
     line-height: 28px;
 }
 
-.list-item-link:hover{
+.list-item-link:hover {
     color: #313EF7;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -293,10 +293,152 @@ body{
 .features-text {
     color: rgba(3, 5, 34, 0.65);
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 150%;
     margin-bottom: 32px;
+}
+
+.fly {
+    padding-bottom: 100px;
+}
+
+.fly-container {
+    display: flex;
+    align-items: center;
+}
+
+.fly-right {
+    padding-left: 72px;
+}
+
+.lets-fly {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.fly-title {
+    color: #313EF7;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.fly-span {
+    width: 383px;
+    height: 0px;
+    border-bottom: 2px dashed #E5E7EB;
+    margin-left: 20px;
+}
+
+.fly-right-title {
+    color: #030303;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.fly-right-text {
+    color: #030303;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.fly-btn {
+    border-radius: 56px;
+    background: #313EF7;
+    box-shadow: 0px 10px 14px 0px rgba(49, 62, 247, 0.25);
+    margin-top: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    border: none;
+    padding: 14px 45px;
+}
+
+/* tickets */
+
+.tickets {
+    padding: 56px 0px;
+    background: #010223;
+}
+
+.tickets-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tickets-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.tickets-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 26px;
+}
+
+/* travel */
+
+.travel {
+    padding: 100px 0px;
+}
+
+.travel-title {
+    color: #011736;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.travel-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 140px;
+    background:  rgb(248, 248, 248);
+}
+
+.travel-h2 {
+    color: #011736;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.travel-text {
+    color: #979797;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 40px;
 }

@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,KAAK",
+    "sources": [
+        "main.scss",
+        "_global.scss",
+        "_header.scss",
+        "_hero.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

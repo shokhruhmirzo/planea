@@ -112,7 +112,6 @@ body {
 .hero-text {
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-family: Inter;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 50px;
@@ -425,7 +424,7 @@ body {
     gap: 8px;
     align-self: stretch;
     border-radius: 140px;
-    background:  rgb(248, 248, 248);
+    background: rgb(248, 248, 248);
 }
 
 .travel-h2 {
@@ -441,4 +440,220 @@ body {
     font-weight: 500;
     line-height: 150%;
     margin-bottom: 40px;
+}
+
+/* custom */
+
+.custom {
+    padding-bottom: 100px;
+}
+
+.custom-h4 {
+    color: #313EF7;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.custom-title {
+    color: #011736;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.custom-div {
+    display: flex;
+}
+
+
+
+.custom-right2 {
+    display: flex;
+    align-items: center;
+}
+
+.jaylon {
+    margin-left: 16px;
+}
+
+.jaylon-h3 {
+    color: #011736;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.custom-box {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+    margin-left: 21px;
+    padding: 30px 21px;
+
+}
+
+.custom-text {
+    color: #1B1B1C;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 16px;
+}
+
+.custom-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+/* memories */
+.memories {
+    padding-bottom: 100px;
+}
+
+.memories-title {
+    color: #011736;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.memories-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-50px {
+    padding-top: 80px;
+}
+
+/* email */
+
+.email {
+    padding: 100px 0px;
+    background: rgba(49, 62, 247, 0.05);
+}
+
+.email-title {
+    color: #011736;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.email-div {
+    border-radius: 150px;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+    width: 593px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0px;
+    margin: 0 auto;
+
+}
+
+.email-input {
+    border-radius: 150px;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+    border: none;
+    padding: 11px 0px 11px 20px;
+    color: #AEB5BF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    outline: none;
+
+}
+
+.email-btn {
+    border-radius: 56px;
+    background: #313EF7;
+    border: none;
+    padding: 10px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-right: 10px;
+}
+
+/* footer */
+.footer {
+    padding: 30px 0px;
+    background-image: url(./img/footer-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: #A7A7A7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 15px;
+}
+
+
+.footer-main {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.about {}
+
+.footer-hr {
+    width: 1240px;
+    height: 0px;
+    stroke-width: 3px;
+    stroke: rgba(255, 255, 255, 0.10);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-down-text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    text-align: center;
 }
